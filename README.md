@@ -8,3 +8,7 @@ This is my personal resume website built using HTML and CSS.
 ## Technologies
 - HTML
 - CSS
+## Links
+<a href="https://7vikfox.github.io/learning-hub/" target="_blank">
+  <button>Learning Hub</button>
+</a>
