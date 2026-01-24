@@ -105,4 +105,20 @@ footer {
     .section {
         padding: 40px 20px;
     }
+    /*BUTTON*/
+    
+    button {
+  padding: 8px 14px;
+  border: 1px solid #555;
+  background: #222;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#msg {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
 }
