@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0e0e0e;
+    color: #e7e7e7;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background: #141414;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #e7e7e7;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #b4b4b4;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 40px;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* SKILLS BLOCKS */
+.skill-block {
+    margin: 12px 0;
+}
+
+.skill-block h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+/* LISTED ITEMS */
+.item {
+    margin-bottom: 18px;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #141414;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+@media (max-width: 700px) {
+    nav a {
+        margin-left: 12px;
+        font-size: 14px;
+    }
+
+    header {
+        padding: 15px 20px;
+    }
+
+    .section {
+        padding: 40px 20px;
+    }
+}
