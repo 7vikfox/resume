@@ -71,6 +71,7 @@ nav a:hover {
 /* SKILLS BLOCKS */
 .skill-block {
     margin: 12px 0;
+    colour: green;
 }
 
 .skill-block h3 {
@@ -91,6 +92,7 @@ footer {
     background: #141414;
     font-size: 14px;
     margin-top: 40px;
+    colour: red;
 }
 
 @media (max-width: 700px) {
